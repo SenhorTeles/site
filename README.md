@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zynapse Systems | O Futuro da Inteligência Digital</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Specific Inline overrides for Process alignment if needed, or rely on style.css utilities -->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="https://i.imgur.com/96YRmyS.png" alt="Logo Zynapse" style="height: 65px;">
+            </a>
+            <nav class="nav-links">
+                <a href="#home" class="active">Início</a>
+                <a href="#services">Serviços</a>
+                <a href="#process">Metodologia</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Iniciar Projeto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Canvas Background -->
+        <canvas id="network-bg"></canvas>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Inovação & Tecnologia</span>
+                <h1>Construindo o Futuro da <span class="text-gradient">Inteligência Digital</span></h1>
+                <p>Criamos softwares de alto desempenho, soluções de IA e arquiteturas de nuvem escaláveis para empresas
+                    inovadoras.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Comece agora</a>
+                    <a href="#services" class="btn btn-outline">Explore os serviços</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>120+</h3>
+                        <p>Projetos Entregues</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Retenção de Clientes</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Prêmios Globais</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="image-wrapper">
+                        <img src="financial_system.png" alt="Sistema Financeiro" class="mockup-img main-img">
+                        <img src="gestor_system.png" alt="Sistema Gestor" class="mockup-img hover-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nossa Expertise</span>
+                <h2 class="section-title">Soluções de Ponta a Ponta</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Desenvolvimento Sob Medida</h3>
+                    <p>Soluções de software personalizadas construídas com código limpo e arquitetura escalável para
+                        atender às necessidades específicas do seu negócio.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card blue">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3>Aplicativos Móveis</h3>
+                    <p>Aplicativos nativos e multiplataforma que proporcionam experiências de usuário contínuas em iOS e
+                        Android.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3>IA & Machine Learning</h3>
+                    <p>Algoritmos inteligentes e modelos preditivos que automatizam processos e revelam insights
+                        baseados em dados.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card blue">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3>Infraestrutura em Nuvem</h3>
+                    <p>Soluções de nuvem seguras, escaláveis e econômicas usando AWS, Azure e Google Cloud Platform.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Design UI/UX</h3>
+                    <p>Design centrado no usuário que combina estética com funcionalidade para aumentar o engajamento e
+                        a conversão.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card blue">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Cibersegurança</h3>
+                    <p>Protocolos de segurança robustos e auditoria para proteger seus ativos digitais e dados de
+                        usuários contra ameaças.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Como Trabalhamos</span>
+                <h2 class="section-title">Nossa Metodologia</h2>
+            </div>
+
+            <div class="process-steps"
+                style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:2rem;">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Descoberta</h3>
+                    <p>Analisamos seus requisitos e objetivos de negócios para traçar a estratégia perfeita.</p>
+                </div>
+                <!-- Step 2 (Blue) -->
+                <div class="step-card blue">
+                    <div class="step-number">02</div>
+                    <h3>Design</h3>
+                    <p>Criação de protótipos intuitivos e arquiteturas que definem a jornada do usuário.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Desenvolvimento</h3>
+                    <p>Sprints de codificação ágil com atualizações regulares e testes de garantia de qualidade.</p>
+                </div>
+                <!-- Step 4 (Blue) -->
+                <div class="step-card blue">
+                    <div class="step-number">04</div>
+                    <h3>Implantação</h3>
+                    <p>Lançamento contínuo e suporte contínuo para garantir que seu produto escale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-container" style="display:grid; grid-template-columns: 1fr 1fr; gap:4rem;">
+                <div class="contact-text">
+                    <span class="section-label">Entre em contato</span>
+                    <h2 class="section-title" style="margin-bottom: 1.5rem;">Pronto para Transformar seu Negócio?</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem;">
+                        Vamos discutir como a Zynapse Systems pode ajudar você a construir sua próxima grande ideia.
+                        Nossa equipe está pronta para acelerar sua jornada digital.
+                    </p>
+                    <ul style="margin-bottom: 2rem; font-size:1.1rem;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fa-icon fa-solid fa-envelope" style="color: var(--primary-color);"></i>
+                            zynapse.com.br@gmail.com
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fa-icon fa-solid fa-phone" style="color: var(--primary-color);"></i>
+                            62 9501-0222
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form" style="background:var(--bg-light); padding:2rem; border-radius:12px;">
+                    <form>
+                        <div style="margin-bottom: 1rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; color:var(--text-body);">Nome</label>
+                            <input type="text" placeholder="Seu nome"
+                                style="width:100%; padding:0.8rem; border:1px solid var(--border-light); border-radius:6px;">
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; color:var(--text-body);">E-mail</label>
+                            <input type="email" placeholder="seu@email.com"
+                                style="width:100%; padding:0.8rem; border:1px solid var(--border-light); border-radius:6px;">
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <label
+                                style="display: block; margin-bottom: 0.5rem; color:var(--text-body);">Mensagem</label>
+                            <textarea placeholder="Conte-nos sobre o seu projeto"
+                                style="width:100%; padding:0.8rem; border:1px solid var(--border-light); border-radius:6px; height:120px; resize:vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content"
+                style="display:grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap:2rem; margin-bottom:2rem;">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="https://i.imgur.com/96YRmyS.png" alt="Logo Zynapse"
+                            style="height: 65px; margin-bottom:1rem;">
+                    </a>
+                    <p>Inovando o cenário digital com engenharia de precisão e inteligência criativa.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color:var(--text-heading); margin-bottom:1rem;">Empresa</h4>
+                    <ul>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Sobre Nós</a></li>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Carreiras</a></li>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color:white; margin-bottom:1rem;">Legal</h4>
+                    <ul>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Política de
+                                Privacidade</a></li>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Termos de Uso</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color:white; margin-bottom:1rem;">Company</h4>
+                    <ul>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">LinkedIn</a></li>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">Twitter</a></li>
+                        <li><a href="#" style="color:#94A3B8; display:block; margin-bottom:0.5rem;">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright"
+                style="text-align:center; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.1);">
+                &copy; 2026 Zynapse Sistemas. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/556295010222" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Canvas Animation Script -->
+    <script>
+        const canvas = document.getElementById('network-bg');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let points = [];
+
+        // Configuration
+        const numPoints = 60;
+        const maxDistance = 150;
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight; // Full Hero Height
+        }
+
+        class Point {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.size = Math.random() * 2 + 1;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+
+                if (this.x < 0 || this.x > width) this.vx *= -1;
+                if (this.y < 0 || this.y > height) this.vy *= -1;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(14, 165, 233, 0.5)'; // Brand Color Dots
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            resize();
+            for (let i = 0; i < numPoints; i++) {
+                points.push(new Point());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+
+            // Draw lines
+            for (let i = 0; i < points.length; i++) {
+                for (let j = i + 1; j < points.length; j++) {
+                    const dx = points[i].x - points[j].x;
+                    const dy = points[i].y - points[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < maxDistance) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(14, 165, 233, ${1 - distance / maxDistance - 0.5})`; // Fading lines
+                        ctx.lineWidth = 1;
+                        ctx.moveTo(points[i].x, points[i].y);
+                        ctx.lineTo(points[j].x, points[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+
+            // Draw points
+            points.forEach(point => {
+                point.update();
+                point.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            resize();
+            points = []; // Reset points on resize to avoid clustering
+            init(); // Re-init
+        });
+
+        init();
+        animate();
+
+        // Header Scroll
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.style.padding = '0';
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.8)';
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
